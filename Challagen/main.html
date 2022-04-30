@@ -1,0 +1,70 @@
+<html>
+
+<head> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css" rel="stylesheet" media="screen">
+<link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js
+"></script>
+<script src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+</head>
+<body>
+  <form id="myForm">
+    <div class="row">
+      <div class="col-sm-4">
+      <div class="input-group mb-3">
+        <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon03">Importar</button>
+        <input type="file" class="form-control" id="csvFile" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+      </div>
+      </div>
+      <div class="col-sm-2">
+        <label id="promedio"></label>
+      </div>
+      <div class="col-sm-2">
+        <label id="cantida"></label>
+      </div>
+      <div class="col-sm-2">
+        <label id="edadmin"></label>
+      </div>
+      <div class="col-sm-2">
+        <label id="edadmax"></label>
+      </div>
+    </div>
+   
+    <br/>
+    <br/>
+    <div class="row">
+      <div class="col-sm-4">
+        <table id="datos" class="table table-striped table-bordered" style="width:100%">
+      <thead>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3">
+      <table id="datosList" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  </div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-3">
+    <table id="datosNombre" class="table table-striped table-bordered" style="width:100%">
+  <thead>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</div>
+    </div>
+  </form>
+ 
+</body>
+<script src="main.js">  
+</script>
+</html>

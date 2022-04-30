@@ -1,0 +1,20 @@
+.fixed-button{
+    position: fixed;
+    justify-items: center;
+    align-items: center;
+
+
+}
+.product-list {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    
+}
+.mdl-card{
+    width: auto;
+    
+}
